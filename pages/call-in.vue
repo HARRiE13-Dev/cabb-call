@@ -1,7 +1,7 @@
 <template>
   <div class="sidenav" :style="{ width: isOpen ? '400px' : '0' }">
     <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
-    <div>
+    <div style="padding-left: 40px">
       <p style="color: green">Call In</p>
       <p style="color: white">064-5485929</p>
       <div>
@@ -12,7 +12,7 @@
   </div>
   <div class="sidenav" :style="{ width: isOpen2 ? '400px' : '0' }">
     <a href="javascript:void(0)" class="closebtn" @click="closeNav2">&times;</a>
-    <div>
+    <div style="padding-left: 40px">
       <p style="color: green">10:12</p>
       <p style="color: white">064-5485929</p>
       <div>
